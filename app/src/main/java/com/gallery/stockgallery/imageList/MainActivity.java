@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
     private static final String TAG = MainActivity.class.getSimpleName();
     private static final String HITS = "hits";
     private static final String USER = "user";
-    private String url = "https://pixabay.com/api/?key=4909307-";
+    private String url = "https://pixabay.com/api/?key=4909307-\n" + "\n" + "b42f8c86ca7153ec47ea96145&q=yellow+flowers&image_type=photo&per_page=20&page=1";
     private ActivityMainBinding dataBinding;
     private ImageAdapter imageAdapter;
     private MainPresenter mainPresenter;
